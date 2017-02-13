@@ -2,7 +2,54 @@
 body{
 	margin:0;
 	color:blue;
-	family
+	font-family: verdana, sans-serif;
 }
 
-#container 
+header{
+    background: #ccc;
+    overflow: auto;
+}
+
+h1{
+    margin:0;
+    padding: 0.25em 12px;
+}
+
+main{
+    padding: 0 12px;
+}
+/*show and hide nav for mobile*/
+#nav-mobile{
+    line-height: 1.75em;
+    text-align: center;
+    background: #ddd;
+    font-weight:bold;
+}
+
+#nav-main a{
+    display: block;
+    text-align: center;
+    line-height: 1.75em;
+    text-decoration: none;
+    font-weight: bold;
+    height:0;
+    opacity:0;
+    visibility:hidden;
+    transition:height 0.4s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out;
+}
+
+#nav-main:hover a{
+    height:1.75em;
+    opacity: 1;
+    visibility: visible;
+}
+
+/*Decoration*/
+nav a{
+    display:inline-block;
+    color: #555;
+}
+
+#nav-main a:hover{
+    background: #bbb;
+}
