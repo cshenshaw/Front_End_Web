@@ -1,19 +1,29 @@
-/*some basic styles*/
+
 body {
 	margin: 0;
-	color: #352f85;
-	font-family: verdana, sans-serif;
+    background:#FDF9F3;
+	color: #000;
+	font-family:Century Gothic, sans-serif;
 }
 header {
-	background: #100873;
+	background:#FDF9F3;
 	overflow: auto;
 }
+main {
+    background:#FDF9F3;
+}
+
 h1 {
 	margin: 0;
 	padding: 0.25em 12px;
     text-align: center;
-    color: #ff9640;
+    color: #000;
 }
+
+h2 {
+    text-align: center;
+}
+
 main {
 	padding: 0 12px;
 }
@@ -21,9 +31,10 @@ main {
 #nav-mobile {
 	line-height: 1.75em;
 	text-align: center;
-	background: #ff9640;
+	background: #d3d3d3;
 	font-weight: bold;
 }
+
 #nav-main a {
 	display: block;
 	text-align: center;
@@ -35,6 +46,7 @@ main {
 	visibility: hidden;
 	transition: height 0.4s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out;
 }
+
 #nav-main:hover a {
 	
 	height: 1.75em;
@@ -44,33 +56,45 @@ main {
 
 nav a {
 	display: inline-block;
-	color: #ffa200;
+	color: #000;
 }
 #nav-main a:hover {
-	background:#352f85;
+	background:#d3d3d3;
 }
 
 /*BREAKPOINT: larger than mobile*/
 @media screen and (min-width: 580px) {
+    h1{
+        text-align: left;
+        padding-left: 5em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        text-decoration: overline;
+        text-decoration-line:0.5px;
+    }
 	#nav-main {
-		text-align: right;
+		text-align: center;
 	}
+    
 	#nav-main #nav-mobile {
 		display: none;
 	}
+    
 	#nav-main a {
 		margin: 0;
-		height: 1.75em;
+		height: 0.75em;
 		display: inline-block;
 		visibility: visible;
-		padding: 0 1em;
+		padding: 1em 1em;
 		opacity: 1;
-		border-right: 3px solid #fff;
+		border-left: 1px solid #000;
+  
 	}
+    
 	#nav-main a:hover {
 		background: #eee;
 	}
 	#nav-main a:last-child {
-		border-right: none;
+		border-right: 1px solid #000;
 	}
 }
