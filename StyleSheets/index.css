@@ -1,4 +1,3 @@
-
 body {
 	margin: 0;
     background:#FDF9F3;
@@ -6,8 +5,9 @@ body {
 	font-family:Century Gothic, sans-serif;
 }
 header {
-	background:#FDF9F3;
+	background:#3d3d3d;
 	overflow: auto;
+    margin-bottom: 2%;
 }
 main {
     background:#FDF9F3;
@@ -17,11 +17,15 @@ h1 {
 	margin: 0;
 	padding: 0.25em 12px;
     text-align: center;
-    color: #000;
+    color: #fff;
     font-size:25px;
 }
 
 h2 {
+    text-align: center;
+}
+
+p {
     text-align: center;
 }
 
@@ -32,6 +36,7 @@ main {
 #SlideContainer{
     margin-left: auto;
     margin-right: auto;
+    width:60;
 }
 
 .slideshow{
@@ -39,8 +44,9 @@ main {
     margin: auto;
 }
 
-.mySlides{
-    width: 100%;
+.Slides{
+    width:100%;
+    height:100%;
 }
    
 
@@ -118,18 +124,25 @@ nav a {
 	}
     
     #SlideContainer{
+        padding-top: 2%;
         margin-left: auto;
         margin-right: auto;
+        overflow: hidden;
+        
     }
 
     .slideshow{
         width: 60%;
+        height: 40%;
         margin: auto;
         
     }
 
-    .mySlides{
+    .Slides{
         width: 100%;
+        height: 100%;
+        border-style: solid;
+        border-width: thin;
     }
    
 }
