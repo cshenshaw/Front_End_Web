@@ -23,6 +23,10 @@ h1 {
 
 h2 {
     text-align: center;
+    background:#3d3d3d;
+    color: #fff;
+    padding-top:1em;
+    padding-bottom: 1em;
 }
 
 p {
@@ -31,6 +35,10 @@ p {
 
 main {
 	padding: 0 12px;
+}
+
+#leftRight{
+    margin-left:50%;
 }
 
 #SlideContainer{
@@ -83,6 +91,23 @@ nav a {
 }
 #nav-main a:hover {
 	background:#d3d3d3;
+}
+
+#image_grid{
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.grid{
+    height: 30%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid:hover{
+    border-style: solid;
 }
 
 /*BREAKPOINT: larger than mobile*/

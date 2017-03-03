@@ -1,4 +1,3 @@
-
 function showDivs(n) {
     "use strict";
     var i;
@@ -21,20 +20,3 @@ showDivs(slideIndex);
 function arrows(n) {
     showDivs(slideIndex += n);
 }
-
-/*function slideshow() {
-    "use strict";
-    var i = 1;//counter
-    var currentImage;//current image to be displayed
-    var x = document.getElementByClassName("Slides");//get all elements
-    
-    if(x)
-    
-    
-    
-    if (i > x.lenght){
-        i=1;
-    }
-    
-    
-}8/
