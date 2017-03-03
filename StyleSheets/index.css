@@ -100,8 +100,8 @@ nav a {
 }
 
 .grid{
-    height: 30%;
-    width: 20%;
+    height: 40%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -168,6 +168,23 @@ nav a {
         height: 100%;
         border-style: solid;
         border-width: thin;
+    }
+    
+    #image_grid{
+        display: inline-block;
+        margin-left: 30%;
+        margin-right: 20%;
+    }
+
+    .grid{
+        height: 30%;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid:hover{
+        border-style: solid;
     }
    
 }
