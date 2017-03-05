@@ -22,11 +22,12 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     background:#3d3d3d;
     color: #fff;
     padding-top:1em;
     padding-bottom: 1em;
+    padding-left: 2em;
 }
 
 p {
@@ -95,19 +96,21 @@ nav a {
 
 #image_grid{
     display: inline-block;
-    margin-left: 30%;
+    /*margin-left: 30%;
     margin-right: 20%;
-}
+*/}
 
 .grid{
-    height: 40%;
-    width: 30%;
+    height: 40px;
+    width: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .grid:hover{
     border-style: solid;
+    height:80px;
+    width:70px;
 }
 
 /*BREAKPOINT: larger than mobile*/
@@ -172,19 +175,24 @@ nav a {
     
     #image_grid{
         display: inline-block;
-        margin-left: 30%;
-        margin-right: 20%;
+        margin-left: 200px;
+        margin-right: auto;
+        width: 80%;
+        height:50%;
+        background:blue;
     }
 
     .grid{
-        height: 30%;
-        width: 20%;
+        height: 200px;
+        width: 150px;
         margin-left: auto;
         margin-right: auto;
     }
 
     .grid:hover{
         border-style: solid;
+        height:300px;
+        width:225px;
     }
    
 }
