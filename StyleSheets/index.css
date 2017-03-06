@@ -26,12 +26,13 @@ h2 {
     background:#3d3d3d;
     color: #fff;
     padding-top:1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     padding-left: 2em;
 }
 
 p {
     text-align: center;
+    font-size: 10px;
 }
 
 main {
@@ -100,7 +101,7 @@ nav a {
     margin-right: 20%;
 */}
 
-.grid{
+/*.grid{
     height: 40px;
     width: 30px;
     margin-left: auto;
@@ -111,7 +112,28 @@ nav a {
     border-style: solid;
     height:80px;
     width:70px;
-}
+}*/
+
+    .comics{
+        width: 95%;
+        height:200px;
+        margin-top: 2%;
+        margin-left:auto;
+        margin-right:auto;
+        background:#bbc3cc;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .comicImg{
+        height:100%;
+        float:left;
+    }
+    
+    
+    .comicTitle{
+        text-align: center;
+        padding-top: 5px;
+    }
 
 /*BREAKPOINT: larger than mobile*/
 @media screen and (min-width: 580px) {
@@ -173,7 +195,7 @@ nav a {
         border-width: thin;
     }
     
-    #image_grid{
+    /*#image_grid{
         display: inline-block;
         margin-left: 200px;
         margin-right: auto;
@@ -193,6 +215,41 @@ nav a {
         border-style: solid;
         height:300px;
         width:225px;
+    }*/
+    
+    .comics{
+        width: 95%;
+        height:225px;
+        margin-top: 2%;
+        margin-left:auto;
+        margin-right:auto;
+        background:#bbc3cc;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .comicImg{
+        height:100%;
+        float:left;
+    }
+    
+    
+    .comicTitle{
+        text-align: center;
+        padding-top: 5px;
+    }
+    
+    .comicDesc{
+        font-size: 15px;
+        text-align:center;
+    }
+  
+    
+    .check{
+
+    }
+    
+    p{
+        font-size: 15px;
     }
    
 }
