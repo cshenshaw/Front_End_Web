@@ -181,6 +181,7 @@ footer{
     text-decoration: none;
     color: #fff;
     padding-left: 10%;
+    font-size: 5px
 }
     
 #costTotal{
@@ -193,14 +194,14 @@ footer{
     padding-left: 10px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    font-size: 8px;
+    font-size: 5px;
 }
     
 input[type=text] {
     background-color: #3d3d3d;
     color: white;
     border-style: none;
-    font-size: 8px;
+    font-size: 5px;
 }
 
 /*BREAKPOINT: larger than mobile*/
