@@ -187,20 +187,20 @@ footer{
     background:#3d3d3d;
     color: white;
     float: right;
-    width: 60%;
+    width: 70%;
     height: 100%;
     padding-top: 10px;
     padding-left: 10px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    font-size: 10px;
+    font-size: 8px;
 }
     
 input[type=text] {
     background-color: #3d3d3d;
     color: white;
     border-style: none;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 /*BREAKPOINT: larger than mobile*/
@@ -325,7 +325,7 @@ input[type=text] {
         color: white;
         float: right;
         display: inline-block;
-        width: 20%;
+        width: 50%;
         height: 100%;
         padding-top: 10px;
         padding-left: 10px;
