@@ -41,3 +41,4 @@ function checkTotal() {
 		}
 		document.listForm.total.value = parseFloat(sum).toFixed(2);
 }
+

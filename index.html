@@ -1,6 +1,6 @@
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
             <meta charset="utf-8">
             <title>Comics and Figures</title>
             <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -8,22 +8,14 @@
             <script type="text/javascript" src="Javascript/JsSlideShow.js"></script>
         </head>
 
-        <body>
+    <body>
 
         <header>
             <h1>Whats New With Comics?    </h1>
 
-            <!--<nav id="nav-main">
-                <div id="nav-mobile">MENU</div>
-                <a href="#home">Home</a>
-                <a href="#marvel">Marvel Comics</a>
-                <a href="#DC">DC Comics</a>
-                <a href="#figures">Figures</a>
-
-            </nav>-->
-
-        </header>
+    </header>
         <main>
+        <div id ="topSection">
             <nav id="nav-main">
                 <div id="nav-mobile">MENU</div>
                 <a href="index.html#marvel">Marvel Comics</a>
@@ -32,7 +24,7 @@
 
             </nav>
             <!--SlideShow-->
-            <div id="SlideContainer"></div>
+            <div id="SlideContainer">
                 <div class="slideshow" onload="showImg(1)">
                     <img class="Slides" src="images/slideBanner/image1.jpg">
                     <img class="Slides" src="images/slideBanner/image2.jpg">
@@ -40,26 +32,25 @@
                     <img class="Slides" src="images/slideBanner/image4.jpg">
                 </div><!--slideshow class-->
             <!-- slideshow control arrows -->
-                    <div id="leftRight">
-                        <a div="LeftClick" onclick="arrows(-1)"><img id="left" src="images/slideBanner/arrowLeft.png"></a>
-                        <a div="RightClick" onclick="arrows(1)"><img id="right" src="images/slideBanner/arrowRight.png"></a>
-                    </div><!--RightLeft-->
-                </div><!--Slideshow Container-->
-            
-            <div id="Bodyoftext">
-                <p>
-                    Find out what comics and figures are coming out soon,<br> choose your preference between DC comics and Marvel.
-                </p>
+                <div id="leftRight">
+                    <a div="LeftClick" onclick="arrows(-1)"><img id="left" src="images/slideBanner/arrowLeft.png"></a>
+                    <a div="RightClick" onclick="arrows(1)"><img id="right" src="images/slideBanner/arrowRight.png"></a>
+                </div>
             </div>
-            
-<!-- ************** start of marvel section ***************** -->            
+        </div>   
+        <div id="Bodyoftext">
+            <p>
+                Find out what comics and figures are coming out soon,<br> choose your preference between DC comics and Marvel.<br>Simple click the checkbox if you want a comic and we will give you a total of how much this weeks purchases would cost you.
+             </p>
+        </div>
+             
+<!-- ************** start of marvel section ***************** -->          
+        <h2 id="marvel">Marvel</h2>
 
-            <h2 id="marvel">Marvel</h2>
+        <p> Marvel Comics bring some great titles this week including fan favourites such Avengers and Deadpool along with Marvels Relatively new series Star Wars.
+        </p>
 
-            <p> Marvel Comics bring some great titles this week including fan favourites such Avengers and Deadpool along with Marvels Relatively new series Star Wars.
-            </p>
-
-            <form name="listForm">
+        <form name="listForm">
 
               <div class ="comics">
                 <img class="comicImg" src="images/marvel/champions.jpg">
@@ -131,7 +122,7 @@
                 </p>
               </div>
                 
-<!-- ***************** start of dc section **************** -->                
+<!-- ***************** start of dc section **************** -->  
               <h2 id="dc">DC</h2>
                 
               <div class ="comics">
@@ -207,12 +198,11 @@
               </div> 
 
         </main>
-        <footer>
-            <div id ="costTotal">
-                  This Weeks Cost: £ <input type="text" size="2" name="total" value="0"/>
-              </div>
+                <footer>
+                    <div id ="costTotal">
+                        This Weeks Cost: £ <input type="text" size="2" name="total" value="0"/>
+                    </div>
             </form>
-        </footer>
-
-        </body>
-        </html>
+            </footer>
+    </body>
+</html>

@@ -1,16 +1,18 @@
 body {
 	margin: 0;
-    background:#FDF9F3;
+    background:#e0e2e5;
 	color: #000;
 	font-family:Century Gothic, sans-serif;
 }
+
 header {
 	background:#3d3d3d;
 	overflow: auto;
     margin-bottom: 2%;
 }
+
 main {
-    background:#FDF9F3;
+    background:#e0e2e5;
 }
 
 h1 {
@@ -35,18 +37,21 @@ p {
     font-size: 10px;
 }
 
+#topSection{
+    width:100%;
+    background:#e0e2e5;
+}
+
 main {
 	padding: 0 12px;
 }
 
 #leftRight{
     margin-left:45%;
-    
 }
 
 #left{
     width:10%;
-    
 }
 #right{
     width: 10%;
@@ -55,13 +60,14 @@ main {
 #SlideContainer{
     margin-left: auto;
     margin-right: auto;
-    width:60;
+    width:100%;
 }
 
 .slideshow{
-    width: 60%;
+    width: 90%;
     margin: auto;
 }
+
 .Slides:first-child{ /*important!*/
     width:100%;
     height:100%;
@@ -73,8 +79,6 @@ main {
     height:100%;
     display: none;
 }
-   
-
 
 #nav-mobile {
 	line-height: 1.75em;
@@ -106,56 +110,54 @@ nav a {
 	display: inline-block;
 	color: #000;
 }
+
 #nav-main a:hover {
 	background:#d3d3d3;
 }
 
-#image_grid{
-    display: inline-block;
-    /*margin-left: 30%;
-    margin-right: 20%;
-*/}
+.comics{
+    width: 95%;
+    height:200px;
+    margin-top: 2%;
+    margin-left:auto;
+    margin-right:auto;
+    background:#bbc3cc;
+    padding: 5px 5px 5px 5px;
+}
+    
+.comicImg{
+    height:80%;
+    float:left;
+}   
+    
+.comicTitle{
+    text-align: center;
+    padding-top: 2px;
+    font-size:12px
+}
 
+.comicDesc{
+    font-size: 8px;
+}
 
-    .comics{
-        width: 95%;
-        height:200px;
-        margin-top: 2%;
-        margin-left:auto;
-        margin-right:auto;
-        background:#bbc3cc;
-        padding: 5px 5px 5px 5px;
-    }
+#costTotal{
+    background:#808080;
+    color: white;
+    float: right;
+    width: 20%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 20px 20px 20px 20px #888888;
+}
     
-    .comicImg{
-        height:100%;
-        float:left;
-    }
-    
-    
-    .comicTitle{
-        text-align: center;
-        padding-top: 5px;
-    }
-
- #costTotal{
-        background:#808080;
-        color: white;
-        float: right;
-        width: 20%;
-        height: 100%;
-        padding-top: 10px;
-        padding-left: 10px;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 20px 20px 20px 20px #888888;
-    }
-    
-    input[type=text] {
-        background-color: #808080;
-        color: white;
-        border-style: none;
-    }
+input[type=text] {
+    background-color: #808080;
+    color: white;
+    border-style: none;
+}
 
 /*BREAKPOINT: larger than mobile*/
 @media screen and (min-width: 580px) {
@@ -168,7 +170,8 @@ nav a {
         text-decoration: overline;
         text-decoration-line:0.5px;
     }
-	#nav-main {
+
+    #nav-main {
 		text-align: center;
 	}
     
@@ -199,15 +202,13 @@ nav a {
         padding-top: 2%;
         margin-left: auto;
         margin-right: auto;
-        overflow: hidden;
-        
+        overflow: hidden;    
     }
 
     .slideshow{
         width: 60%;
         height: 40%;
-        margin: auto;
-        
+        margin: auto;    
     }
 
     .Slides{
@@ -244,11 +245,6 @@ nav a {
         font-size: 15px;
         text-align:center;
     }
-  
-    
-    .check{
-
-    }
     
     p{
         font-size: 15px;
@@ -280,5 +276,4 @@ nav a {
         color: white;
         border-style: none;
     }
-    
 }
