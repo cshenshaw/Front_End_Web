@@ -187,18 +187,20 @@ footer{
     background:#3d3d3d;
     color: white;
     float: right;
-    width: 50%;
+    width: 60%;
     height: 100%;
     padding-top: 10px;
     padding-left: 10px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-size: 10px;
 }
     
 input[type=text] {
     background-color: #3d3d3d;
     color: white;
     border-style: none;
+    font-size: 10px;
 }
 
 /*BREAKPOINT: larger than mobile*/
@@ -220,6 +222,10 @@ input[type=text] {
         padding-top:1em;
         padding-bottom: 2em;
         padding-left: 2em;
+    }
+    
+    h3{
+        font-size: 30px;
     }
 
 
@@ -291,6 +297,7 @@ input[type=text] {
     .comicTitle{
         text-align: center;
         padding-top: 5px;
+        font-size: 20px;
     }
     
     .comicDesc{
@@ -322,6 +329,7 @@ input[type=text] {
         height: 100%;
         padding-top: 10px;
         padding-left: 10px;
+        font-size: 20px;
     }
     
     #toplink{
@@ -335,11 +343,13 @@ input[type=text] {
         text-decoration: none;
         color: #fff;
         padding-left: 10%;
+        font-size: 20px;
     }
     
     input[type=text] {
-        background-color: #808080;
+        background-color: #3d3d3d;
         color: white;
         border-style: none;
+        font-size: 20px;
     }
 }
