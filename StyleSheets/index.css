@@ -62,13 +62,13 @@ main {
     width: 60%;
     margin: auto;
 }
-.Slides:first-child{
+.Slides:first-child{ /*important!*/
     width:100%;
     height:100%;
     display: block;
 }
 
-.Slides{
+.Slides{ /*important!*/
     width:100%;
     height:100%;
     display: none;
@@ -224,9 +224,8 @@ nav a {
         margin-left:auto;
         margin-right:auto;
         background: -moz-linear-gradient(top, #d8d8d8 1%, #f4f4f4 100%); 
-background: -webkit-linear-gradient(top, #d8d8d8 1%,#f4f4f4 100%);
-background: linear-gradient(to bottom, #d8d8d8 1%,#f4f4f4 100%); 
- box-shadow: 2px 2px 2px 2px #e8e8e8;
+        background: -webkit-linear-gradient(top, #d8d8d8 1%,#f4f4f4 100%);
+        background: linear-gradient(to bottom, #d8d8d8 1%,#f4f4f4 100%); 
         padding: 5px 5px 5px 5px;
     }
     

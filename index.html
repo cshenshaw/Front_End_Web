@@ -26,27 +26,26 @@
         <main>
             <nav id="nav-main">
                 <div id="nav-mobile">MENU</div>
-                <a href="#home">Home</a>
                 <a href="index.html#marvel">Marvel Comics</a>
                 <a href="index.html#dc">DC Comics</a>
                 <a href="#figures">Figures</a>
 
             </nav>
-            <!--<h2>New This Week</h2>-->
+            <!--SlideShow-->
             <div id="SlideContainer"></div>
                 <div class="slideshow" onload="showImg(1)">
                     <img class="Slides" src="images/slideBanner/image1.jpg">
                     <img class="Slides" src="images/slideBanner/image2.jpg">
                     <img class="Slides" src="images/slideBanner/image3.jpg">
                     <img class="Slides" src="images/slideBanner/image4.jpg">
-
-
                 </div><!--slideshow class-->
+            <!-- slideshow control arrows -->
                     <div id="leftRight">
                         <a div="LeftClick" onclick="arrows(-1)"><img id="left" src="images/slideBanner/arrowLeft.png"></a>
                         <a div="RightClick" onclick="arrows(1)"><img id="right" src="images/slideBanner/arrowRight.png"></a>
                     </div><!--RightLeft-->
                 </div><!--Slideshow Container-->
+            
             <div id="Bodyoftext">
                 <p>
                     Find out what comics and figures are coming out soon,<br> choose your preference between DC comics and Marvel.
@@ -62,7 +61,7 @@
 
             <form name="listForm">
 
-            <div class ="comics">
+              <div class ="comics">
                 <img class="comicImg" src="images/marvel/champions.jpg">
                 <h3 class="comicTitle">Champions #6</h3 >
                 <p  class="comicDesc">
@@ -70,7 +69,7 @@
                 </p>
             </div>
 
-            <div class ="comics">
+              <div class ="comics">
                 <img class="comicImg" src="images/marvel/deadpool.jpg">
                 <h3 class="comicTitle">Deadpool #28</h3>
                 <p class="comicDesc">
@@ -79,7 +78,7 @@
                 </p>
              </div>
 
-             <div class ="comics">
+              <div class ="comics">
                 <img class="comicImg" src="images/marvel/doctorStrange.jpg">
                 <h3 class="comicTitle">Doctor Strange #18</h3 >
                 <p  class="comicDesc">
@@ -135,7 +134,7 @@
 <!-- ***************** start of dc section **************** -->                
               <h2 id="dc">DC</h2>
                 
-               <div class ="comics">
+              <div class ="comics">
                 <img class="comicImg" src="images/dc/batman.jpg">
                 <h3 class="comicTitle">Batman #18</h3 >
                 <p  class="comicDesc">
@@ -144,7 +143,68 @@
                 </p>
               </div>
                 
-
+              <div class ="comics">
+                <img class="comicImg" src="images/dc/superman.jpg">
+                <h3 class="comicTitle">Superman #18</h3 >
+                <p  class="comicDesc">
+                    “SUPERMAN REBORN” part one! In DC UNIVERSE: REBIRTH #1, the enigmatic Mr. Oz told this Superman, “You and your family are not what you believe you are.<br> And neither was the fallen Superman.” Now, in the first Rebirth crossover between SUPERMAN and ACTION COMICS, the shocking truth behind Oz’s words is revealed.<br> It begins with one of Oz’s prisoners escaping, and ends in a tragic moment for Lois and Superman.<br>£2.99
+                   <input type="checkbox" class="check" name="choice" value="2.99" onchange="checkTotal()"/>
+                </p>
+              </div>
+                
+              <div class ="comics">
+                <img class="comicImg" src="images/dc/justiceleague.jpg">
+                <h3 class="comicTitle">Justice League #16</h3 >
+                <p  class="comicDesc">
+                    “TIMELESS” part two! Scattered across time, the individual members of the Justice League must fight their way back to the present from the ancient past and distant future to stop the Timeless from erasing the Earth’s greatest heroes from history itself.<br>£2.99
+                   <input type="checkbox" class="check" name="choice" value="2.99" onchange="checkTotal()"/>
+                </p>
+              </div>
+                
+              <div class ="comics">
+                <img class="comicImg" src="images/dc/aquaman.jpg">
+                <h3 class="comicTitle">Aquaman #18</h3 >
+                <p  class="comicDesc">
+                    “WARHEAD” finale! Aquaman’s battle with Warhead leaves him trapped in the tortured mind of the telepathic beast, where the sea king is forced to experience the lifetimes of combat that define his tragic new foe!.<br>£2.99
+                   <input type="checkbox" class="check" name="choice" value="2.99" onchange="checkTotal()"/>
+                </p>
+              </div>
+                
+              <div class ="comics">
+                <img class="comicImg" src="images/dc/Nightwing.jpg">
+                <h3 class="comicTitle">KnightWing #16</h3 >
+                <p  class="comicDesc">                   
+                    Hate is coming to Blüdhaven, and it will tear Nightwing’s world apart! Try and keep up as Dick Grayson spans the globe to piece together clues and uncover the mystery of who wants Nightwing dead!.<br>£2.99
+                   <input type="checkbox" class="check" name="choice" value="2.99" onchange="checkTotal()"/>
+                </p>
+              </div>                
+                
+              <div class ="comics">
+                <img class="comicImg" src="images/dc/greenArrow.jpg">
+                <h3 class="comicTitle">Green Arrow #18</h3 >
+                <p  class="comicDesc">                   
+                    “REUNION” part one! Oliver Queen and Roy Harper once patrolled the streets as Green Arrow and Speedy, but a massive falling-out left them estranged for years. Now, learn the truth behind the tragic dissolution—and triumphant reunion—of one of comics’ most iconic super-duos as Green Arrow and Arsenal join forces once more!<br>£2.99
+                   <input type="checkbox" class="check" name="choice" value="2.99" onchange="checkTotal()"/>
+                </p>
+              </div>  
+                
+              <div class ="comics">
+                <img class="comicImg" src="images/dc/greenLantern.jpg">
+                <h3 class="comicTitle">Green Lantern #18</h3 >
+                <p  class="comicDesc">                   
+                    “The Last Testament of the First Lantern”! Before the Green Lantern Corps, the Guardians of the Universe embedded a power battery inside a man, imbuing him with unimaginable power. Eventually fearing him, they stole that power back for their own control, but now Volthoom, the First Lantern, has returned with a plan to force Jessica and Simon to help him regain his lost godhood.<br>£2.99
+                    <input type="checkbox" class="check" name="choice" value="2.99" onchange="checkTotal()"/>
+                </p>
+              </div>  
+                
+              <div class ="comics">
+                <img class="comicImg" src="images/dc/cyborg.jpg">
+                <h3 class="comicTitle">Cyborg #10</h3 >
+                <p  class="comicDesc">                   
+                    “LORD OF THE RATS” part one! Cyborg’s gone to ground following the crippling malfunction of his tech at the hands of the corrupted S.T.A.R. Labs. Desperate to find his prey, the techno-villain posing as Vic Stone’s father conspires with the Lord of Rats, a Detroit crime lord who agrees to hunt down Cyborg in exchange for OTAC transforming his rodent drug distribution force into a cybernetic rat army.<br>£2.99
+                    <input type="checkbox" class="check" name="choice" value="2.99" onchange="checkTotal()"/>
+                </p>
+              </div> 
 
         </main>
         <footer>
