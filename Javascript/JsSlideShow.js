@@ -1,4 +1,4 @@
-function showDivs(n) {
+function showImg(n) {
     "use strict";
     var i;
     var x = document.getElementsByClassName("Slides");
@@ -12,13 +12,13 @@ function showDivs(n) {
 }
 
 var slideIndex = 1;
-showDivs(slideIndex);
+showImg(slideIndex);
 
 
 
 
 function arrows(n) {
-    showDivs(slideIndex += n);
+    showImg(slideIndex += n);
 }
 
 
