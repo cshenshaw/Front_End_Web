@@ -181,6 +181,7 @@ footer{
     text-decoration: none;
     color: #fff;
     padding-left: 10%;
+    font-size: 10px;
 }
     
 #costTotal{
@@ -189,7 +190,7 @@ footer{
     float: right;
     width: 60%;
     height: 100%;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 10px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
