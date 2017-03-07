@@ -27,8 +27,8 @@ h2 {
     text-align: left;
     background:#3d3d3d;
     color: #fff;
-    padding-top:1em;
-    padding-bottom: 2em;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
     padding-left: 2em;
 }
 
@@ -150,11 +150,53 @@ nav a {
     padding-left: 10px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 20px 20px 20px 20px #888888;
 }
     
 input[type=text] {
     background-color: #808080;
+    color: white;
+    border-style: none;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: #3d3d3d;
+    box-shadow: 0 -5px 20px -5px #888888;
+}
+    
+    
+#toplink{
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 30px;
+}
+    
+#home{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10%;
+}
+    
+#costTotal{
+    background:#3d3d3d;
+    color: white;
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+    
+input[type=text] {
+    background-color: #3d3d3d;
     color: white;
     border-style: none;
 }
@@ -170,6 +212,16 @@ input[type=text] {
         text-decoration: overline;
         text-decoration-line:0.5px;
     }
+    
+    h2 {
+        text-align: left;
+        background:#3d3d3d;
+        color: #fff;
+        padding-top:1em;
+        padding-bottom: 2em;
+        padding-left: 2em;
+    }
+
 
     #nav-main {
 		text-align: center;
@@ -256,19 +308,33 @@ input[type=text] {
         right: 0;
         bottom: 0;
         height: 50px;
+        width: 100%;
+        background: #3d3d3d;
+        box-shadow: 0 -5px 20px -5px #888888;
     }
     
     #costTotal{
-        background:#808080;
+        background:#3d3d3d;
         color: white;
         float: right;
+        display: inline-block;
         width: 20%;
         height: 100%;
         padding-top: 10px;
         padding-left: 10px;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 20px 20px 20px 20px #888888;
+    }
+    
+    #toplink{
+        float: left;
+        display: inline-block;
+        padding: 10px;
+        padding-left: 50px;
+    }
+    
+    #home{
+        text-decoration: none;
+        color: #fff;
+        padding-left: 10%;
     }
     
     input[type=text] {
