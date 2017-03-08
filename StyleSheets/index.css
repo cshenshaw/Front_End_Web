@@ -100,7 +100,6 @@ main {
 }
 
 #nav-main:hover a {
-	
 	height: 1.75em;
 	opacity: 1;
 	visibility: visible;
@@ -205,7 +204,7 @@ input[type=text] {
     font-size: 10px;
 }
 
-/*BREAKPOINT: larger than mobile*/
+/***************BreakPoint*************/
 @media screen and (min-width: 580px) {
     h1{
         text-align: left;
@@ -290,6 +289,11 @@ input[type=text] {
         padding: 5px 5px 5px 5px;
     }
     
+    .comics:last-child{
+        padding-bottom: 50px;
+    }
+    
+    
     .comicImg{
         height:100%;
         float:left;
@@ -309,6 +313,10 @@ input[type=text] {
     
     p{
         font-size: 15px;
+    }
+    
+    #Gmaps{
+        width: 80%;
     }
     
     footer{

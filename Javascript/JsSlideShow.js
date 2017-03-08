@@ -42,3 +42,13 @@ function checkTotal() {
 		document.listForm.total.value = parseFloat(sum).toFixed(2);
 }
 
+//**************Googlemap api
+function createMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(37.402, -122.078),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var map = new google.maps.Map(document.getElementById("Gmaps"), mapOptions);
+}
+
